@@ -5,7 +5,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Test Bob 2";
+const namePrefix = "Test Bob 3";
 const description = "Remember to replace this description - change";
 const baseUri = "ipfs://NewUriToReplace";
 
@@ -29,7 +29,7 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Head" },
       { name: "Eyes" },
-    
+      { name: "Pants" },
     ],
   },
 ];
