@@ -6,7 +6,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Test Bob 2";
-const description = "Remember to replace this description";
+const description = "Remember to replace this description - change";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
