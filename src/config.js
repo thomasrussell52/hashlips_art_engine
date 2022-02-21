@@ -5,7 +5,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Test Bob 3";
+const namePrefix = "Test Bob 1";
 const description = "Remember to replace this description - change";
 const baseUri = "ipfs://NewUriToReplace";
 
@@ -15,7 +15,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0xd07da1f76b5e3989f083e64656fa7b2745b7496b",
       share: 100,
     },
   ],
@@ -26,10 +26,16 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 10,
     layersOrder: [
-      { name: "Background" },
-      { name: "Head" },
-      { name: "Eyes" },
-      { name: "Pants" },
+      { name: "001_BACKGROUND" },
+      { name: "002_BODYOL" },
+      { name: "003_SKINCOLOR" },
+      { name: "004_SHIRTCOLOR" },
+      { name: "005_HANDS" },
+      { name: "006_MOUTHS" },
+      { name: "007_EYES" },
+      { name: "008_HAT/HAIR" },
+      { name: "009_FRAME" },
+    
     ],
   },
 ];
